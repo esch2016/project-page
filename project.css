@@ -134,15 +134,19 @@ footer{
 
 @media screen and (max-width: 840px){
 
+.title h1{
+	font-size: 25px;
+}
 .project {
 	flex-direction: column;
-	margin: 0 10px;
+	align-items: center;
 	width: 100%;
 }
 .box {
-    width: 70%;
-    margin: 20px auto;
+
+    margin: 20px;
 }
 .item-right {
     margin-top: 30px;
  }
+}
